@@ -1,0 +1,52 @@
+# Task1（2day）
+## 1.环境搭建
+1. anaconda环境配置
+2. 解释器
+## 2.python初体验
+```python
+print(1,2) # print 1 2
+print("1" "2") # print 12
+print("1","2") # print 1 2
+print("hello","world",sep",") #split string using ","
+
+input = input("Enter a word or a number: ") #输入数据都作为字符串接收
+input = int(input("Enter a number: ")) # Convert string to int
+```
+### 3.python基础讲解
+1. python变量特性+命名规则
+Variables are nothing but reserved memory locations to store values. This means that when you create a variable you reserve some space in memory.
+```python
+# using "=" assigns values to variables
+num = 6 # it's a integer
+height = 48.9 # it's a floating point
+add = "5 ODea Ave" # it's a string
+
+# also can multiple assign
+a, b, c = 1, 2, 3
+
+```
+2. 注释方法
+```python
+# using # to comment a single line
+input = input("Enter your name: ") #get user's name
+
+# using ''' or """ can comment multiple lines
+"""
+  @version: 3.7
+  @author: zoe
+  ...
+"""
+```
+3. python中“：”作用
+
+4. 学会使用dir( )及和help( )
+5. import使用
+6. pep8介绍
+PEP 8 is Python's style guide. It's a set of rules for how to format your Python code to maximize its readability.
+#### 4.python数值基本知识
+1. python中数值类型，int，float，bool，e记法等
+2. 算数运算符
+3. 逻辑运算符
+4. 成员运算符
+5. 身份运算符
+6. 运算符优先级
